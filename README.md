@@ -16,9 +16,15 @@ D - Dependency Inversion Principle
 ````
 
 # Day 01 :clock11:
-- Single-responsiblity Principle
+### Single-responsiblity Principle
 
 > A class should have one and only one reason to change, meaning that a class should have only one job. 
 
 - Separate classes for every object.
 - Refactor the code.
+
+### Open-closed Principle
+
+````
+Classes should be open for extension, but closed for modification.
+````
