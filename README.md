@@ -35,3 +35,16 @@ Objects in a program should be replaceable with instances of their subtypes with
 ````
 - This part was difficult for me but I got help from Tim he explained me really well because I got stuck at this point and mixing all the concept but I'm glad that I did it.
 - Small things matters. ;p
+
+
+# Day 02 :clock9:
+
+### Interface Segregation Principle
+
+````
+This principle states that classes should never implement interfaces that they don’t need to use. If they do, we’ll end up having not implemented methods in our classes. This can be solved creating specific interfaces instead of general-purpose interfaces.
+
+````
+- Fo this simply I created two interfaces one for user and anothe one is for admin and use only that authentication mechanism that is required.
+- Then create a class for admin and user and import that interfaces.
+
