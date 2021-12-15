@@ -48,3 +48,12 @@ This principle states that classes should never implement interfaces that they d
 - Fo this simply I created two interfaces one for user and anothe one is for admin and use only that authentication mechanism that is required.
 - Then create a class for admin and user and import that interfaces.
 
+### Dependency Inversion Principle
+
+
+>Entities must depend on abstractions not on concretions. It states that the high level module must not depend on the low level module, but they should depend on abstractions.
+This principle states that a class should not depend on another class, but instead on an abstraction of that class. It allows loose-coupling and more reusability.
+
+
+
+
