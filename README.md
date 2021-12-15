@@ -28,3 +28,10 @@ D - Dependency Inversion Principle
 ````
 Classes should be open for extension, but closed for modification.
 ````
+
+### Liskov substitution principle
+ ````
+Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program."
+````
+- This part was difficult for me but I got help from Tim he explained me really well because I got stuck at this point and mixing all the concept but I'm glad that I did it.
+- Small things matters. ;p
